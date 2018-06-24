@@ -25,14 +25,14 @@ namespace PenteConsole
             PrintBoard();
 
             Player = 1;
-            gameBoard[61] = 1;
-            gameBoard[62] = 2;
-            gameBoard[63] = 2;
-            gameBoard[64] = 1;
+            gameBoard[43] = 1;
+            gameBoard[52] = 2;
+            gameBoard[61] = 2;
+            gameBoard[70] = 1;
 
             PrintBoard();
 
-            CheckForCapture(64);
+            CheckForCapture(70);
 
             PrintBoard();
 
